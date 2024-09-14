@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a dedicated full-stack developer with a talent for building resilient and scalable web applications. Over the past year, I've sharpened my expertise in front-end technologies like React, Next.js, HTML, CSS, JavaScript, Framer Motion, Shadcn, and Material UI, alongside back-end technologies including Node.js, MySQL, PostgreSQL, and MongoDB. My objective is to use my skills to develop innovative solutions that propel business success and provide outstanding user experiences.`;
 
@@ -48,19 +49,21 @@ export const EXPERIENCES = [
     year: "2023 - 2024",
     role: "Freelancing",
     company: "Fiver",
-    description: `As a Freelance Web Developer, I built and maintained web applications using JavaScript, React.js, and Node.js, along with designing RESTful APIs for data communication. I collaborated with clients and teams to deliver high-quality software within deadlines.
-
-
-
-
-
-
-`,
+    description: `As a Freelance Web Developer, I built and maintained web applications using JavaScript, React.js, and Node.js, along with designing RESTful APIs for data communication. I collaborated with clients and teams to deliver high-quality software within deadlines.`,
     technologies: ["React.js", "MongoDB", "Next.js", "Express.js", "HTML", "CSS", "Javascript  "],
   },
 ];
 
 export const PROJECTS = [
+  {
+    title: "Hirehub - Job Portal ",
+    image: project5,
+    description:
+      "Created a job portal from scratch using the MERN stack. The platform allows job seekers to search for jobs, track applications, schedule interviews, and access company insights. Implemented features like skill assessments and a user-friendly application tracking system, with a modern, clean UI designed for a seamless experience.",
+    technologies: ["React.js", "Tailwind", "Node.js", "Clerk", "Shad Cn", "Supabase"],
+    github: "https://github.com/AbhayWakle/Hirehub",
+    website: "https://hirehub-gamma.vercel.app/",
+  },
   {
     title: "FitJourney - Dynamic Exercise Catalog",
     image: project1,
@@ -77,7 +80,7 @@ export const PROJECTS = [
       "Developed and launched Promptful, a website for creating and storing prompts using Next.js, with Google Authentication for a modern and responsive user interface. MongoDB was implemented for efficient data storage and management, ensuring a seamless user experience and robust data security.",
     technologies: ["Next.js", "Tailwind", "MongoDB", "Ouath", "Material UI", "Javascript"],
     github: "https://github.com/AbhayWakle/Prompt-Management-Project",
-    website:"",
+    website: "",
   },
   {
     title: "E-Commerce Website",
